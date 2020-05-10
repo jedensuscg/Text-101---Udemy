@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb000227d99cd0488e1621326b402f3, type: 3}
+  m_Name: Delay Return To Flynns
+  m_EditorClassIdentifier: 
+  storyText: "To be branded a traitor by the Queen is a serious charge. And you have
+    often witnessed such 'disposition of punishments' before.  You realize something
+    must have gone very wrong back at Court, and your chances of even being allowed
+    to plead your case are slim, if at possible at all. You decide the best course,
+    would be to gather intelligence, and determine the reason behind the Queens decree.
+    But where to begin?  Should you attempt to sneak into Flynn's Landing under a
+    different guise, or perhaps set course for Eribor Harbor, and speak with your
+    sometime's friend, often enemy Jarot. He has an ear to most happenings withing
+    the Kingdom. \n\n1. Sneak into Flynn's Landing.\n2. Chance a meeting with Jarot
+    in Eribor Harbor."
+  nextStates: []

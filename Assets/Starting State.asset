@@ -12,4 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eb000227d99cd0488e1621326b402f3, type: 3}
   m_Name: Starting State
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: "With a the wind in your hair, and the gentle slapping of your trench
+    coat against your body, you look down upon the vista a thousand feet below you.
+    \r\nYou are Captain of the Royal Airship 'Heracles'. In your hand you have a
+    decree from the Queen, recently delivered via carrier pigeon. \r\nIt states,
+    in simplest of terms, that you have been branded a traitor to the Crown, and
+    you are ordered to return to Flynn's Landing for dispensation of punishment.\r\nYou
+    are unaware of what pretense you have been branded as such, and a decision must
+    be made.\"\n\r\n1. Return to Flynn's Landing, in an attempt to clear your name.\r\n2.
+    Delay returning Flynn's Landing, and attempt to clear your name first."
+  nextStates:
+  - {fileID: 11400000, guid: 49bf1eb03d8ebca479fa5827360c13b8, type: 2}
+  - {fileID: 11400000, guid: 0ae057c83f5296546b06ed2104aa3df7, type: 2}

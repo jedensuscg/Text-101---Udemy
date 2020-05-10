@@ -1,0 +1,7 @@
+"With a the wind in your hair, and the gentle slapping of your trench coat against your body, you look down upon the vista a thousand feet below you. 
+You are Captain of the Royal Airship 'Heracles". In your hand you have a decree from the Queen, recently delivered via carrier pigeon. 
+It states, in simplest of terms, that you have been branded a traitor to the Crown, and you are ordered to return to Flynn's Landing for dispensation of punishment.
+You are unaware of what pretense you have been branded as such, and a decision must be made."
+
+1. "Return to Flynn's Landing, in an attempt to clear your name."
+2. "Delay returning Flynn's Landing, and attempt to clear your name first."

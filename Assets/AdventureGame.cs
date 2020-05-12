@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,14 +29,15 @@ public class AdventureGame : MonoBehaviour
     private void ManagedState()
     {
         var nextStates = state.GetNextStates();
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+
+        for (int index = 0; index < nextStates.Length; index++)
         {
-            state = nextStates[0];
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                state = nextStates[0];
+            }
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextStates[1];
-        }
+
         textComponent.text = state.GetStateStory();
     }
 }
